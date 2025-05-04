@@ -8,9 +8,9 @@ Shoutout Tracker is a Discord bot I created as a fun way for teams to manage sho
 
 - **📅 Track Days Since Last Shoutout**: Use the !recent command to see how long it’s been since a specific player last received a shoutout.
 - **🔥 Log Shoutouts**: Use the !shoutout command to log a new shoutout for a player with a custom message and reset the counter.
-- **Shoutout History**: Use the !history command to view a player's full shoutout history, including dates and reasons.
-- **Team Management**: Add players to the team using the !addplayer command and list all players with !players.
-- **Custom Messaging**: Add personalized messages when logging shoutouts to make the bot more fun and engaging.
+- **🕒 Shoutout History**: Use the !history command to view a player's full shoutout history, including dates and reasons.
+- **🤝 Team Management**: Add players to the team using the !addplayer command and list all players with !players.
+- **💬 Custom Messaging**: Add personalized messages when logging shoutouts to make the bot more fun and engaging.
 
 ---
 
@@ -66,8 +66,8 @@ Current team: Tank, Rogue, Healer
      DISCORD_TOKEN=your_discord_bot_token_here
      ```
 
-3. **Install Dependencies**:
-   - Install the required Python packages:
+3. **📥 Install Dependencies**:
+   -  Install the required Python packages:
       ```
       pip install -r requirements.txt
       ```
@@ -78,10 +78,10 @@ Current team: Tank, Rogue, Healer
      python main.py
      ```
 
-5. **Invite the bot to your server**:
+5. **📩 Invite the bot to your server**:
    - Use the OAuth2 URL from the Discord Developer Portal to invite the bot to your server.
 
-6. **Let the Shoutouts Begin**
+6. **📣 Let the Shoutouts Begin**
    - Invite the bot to your server and start tracking those moments!
 
 ---

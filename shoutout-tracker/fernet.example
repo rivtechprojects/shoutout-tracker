@@ -1,0 +1,17 @@
+"""
+This script generates a Fernet encryption key for use with the cryptography library.
+Run this script once to generate a key, and securely store the key in your environment variables.
+
+WARNING: Do not hardcode the generated key in your code. Store it securely in a .env file or a secrets manager.
+"""
+
+from cryptography.fernet import Fernet
+
+# Generate a key (do this once and save it securely in environment variables)
+key = Fernet.generate_key()
+print(f"Encryption Key: {key.decode()}")
+
+# Instructions:
+# 1. Copy the printed key.
+# 2. Store it in your .env file as ENCRYPTION_KEY=<your_key>.
+# 3. Use the key in your application by loading it from the environment variables.
